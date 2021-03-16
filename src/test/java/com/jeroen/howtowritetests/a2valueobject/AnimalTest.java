@@ -8,11 +8,11 @@ class AnimalTest {
 
     @Test
     void whenAnimalWithSameNameAndSpecieShouldBeEqual() {
-        Animal sheepRaf = new Animal("Raf", "sheep");
-        Animal sheepTom = new Animal("Tom", "sheep");
+        Animal duckTom = new Animal("Tom", "duck");
+        Animal duckTom2 = new Animal("Tom", "duck");
 
-        assertThat(sheepRaf)
-                .isEqualTo(sheepTom);
+        assertThat(duckTom)
+                .isEqualTo(duckTom2);
     }
 
 }
