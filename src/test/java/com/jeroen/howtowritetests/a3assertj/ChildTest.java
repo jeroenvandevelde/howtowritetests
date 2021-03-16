@@ -1,12 +1,11 @@
 package com.jeroen.howtowritetests.a3assertj;
 
-import org.assertj.core.groups.Tuple;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class ChildTest {
 
@@ -27,7 +26,6 @@ class ChildTest {
                 .collect(Collectors.toList());
 
         List<String> allowedNamesForTheBouncyCastle = allowedChildrenOnTheBouncyCastle.stream()
-                .filter(child -> child.age() > 12)
                 .map(Child::name)
                 .collect(Collectors.toList());
 
