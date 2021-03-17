@@ -11,16 +11,16 @@ Rules for writing good tests in order
 2. Fast
 3. No duplication
 
-
 Parts:
 1. Naming Methods
 2. ValueObjects
 3. Use Assertj   
 4. Test Builders/Creating test objects - fragile tests
-5. Pure functions
-7. Adapter - Onion architecture https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together
+5. Extensions
+6. [Pure functions](https://www.youtube.com/watch?v=M-sDjNOAn_Y)
+7. [Adapter - Onion architecture](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together)
 8. Spring
-    * Spring Context Caching
+    * [Spring Context Caching](https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#testcontext-ctx-management-caching)
     * MockBean
     * Extensions
     * Annotations / Profiles

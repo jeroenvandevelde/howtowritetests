@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a4testbuilders;
+package com.jeroen.howtowritetests.a4testbuilder;
 
 import java.math.BigDecimal;
 
