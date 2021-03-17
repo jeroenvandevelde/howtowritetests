@@ -22,5 +22,8 @@ Parts:
 8. Spring
     * [Spring Context Caching](https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#testcontext-ctx-management-caching)
     * MockBean
-    * Extensions
     * Annotations / Profiles
+   
+Great videos to watch on this topic
+* [Effective Unit Testing by Eliotte Rusty Harold](https://www.youtube.com/watch?v=fr1E9aVnBxw)
+* [Unit Testing like a Pro: The Circle of Purity by Victor Rentea](https://www.youtube.com/watch?v=1Z_h55jMe-M)
