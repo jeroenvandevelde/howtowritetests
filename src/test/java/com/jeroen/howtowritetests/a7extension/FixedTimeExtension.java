@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a5extension;
+package com.jeroen.howtowritetests.a7extension;
 
 import org.junit.jupiter.api.extension.AfterEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
@@ -10,7 +10,7 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import static com.jeroen.howtowritetests.a5extension.DateTimeProvider.DEFAULT_ZONE_ID;
+import static com.jeroen.howtowritetests.a7extension.DateTimeProvider.DEFAULT_ZONE_ID;
 
 public class FixedTimeExtension implements AfterEachCallback {
     private Field clockField = ReflectionUtils.findField(DateTimeProvider.class, "clock");

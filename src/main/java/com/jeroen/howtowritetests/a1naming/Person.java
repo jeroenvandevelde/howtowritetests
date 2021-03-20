@@ -7,5 +7,14 @@ public record Person(String firstName, String lastName) {
         }
         return firstName + lastName;
     }
+
+    //Necessary as this spring/jackson version doesn't work with records
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
 }
 
