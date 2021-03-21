@@ -1,7 +1,7 @@
 package com.jeroen.howtowritetests.a5pure;
 
 import com.jeroen.howtowritetests.a1naming.Person;
-import com.jeroen.howtowritetests.a8springsolution.PersonRepository;
+import com.jeroen.howtowritetests.a8spring.PersonRepository;
 
 //Split phase refactor
 public class PureExample {

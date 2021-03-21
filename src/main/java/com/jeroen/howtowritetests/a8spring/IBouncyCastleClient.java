@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a8springsolution;
+package com.jeroen.howtowritetests.a8spring;
 
 import com.jeroen.howtowritetests.a1naming.Person;
 

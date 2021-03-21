@@ -1,6 +1,8 @@
 package com.jeroen.howtowritetests.a8springsolution;
 
 import com.jeroen.howtowritetests.a1naming.Person;
+import com.jeroen.howtowritetests.a8spring.BouncyCastleClient;
+import com.jeroen.howtowritetests.a8spring.BouncyCastleService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
