@@ -9,7 +9,7 @@ class AnimalTest {
     @Test
     void whenAnimalWithSameNameAndSpecieShouldBeEqual() {
         Animal duckTom = new Animal("Tom", "duck");
-        Animal duckTom2 = new Animal("Tom", "duck");
+        Animal duckTom2 = new Animal("Tom", "duck"); //Grouchy smurf Moppersmurf
 
         assertThat(duckTom)
                 .isEqualTo(duckTom2);
