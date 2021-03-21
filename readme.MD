@@ -5,7 +5,6 @@ Why do we write test?
 * We want to go faster (less debugging, knows that our code keeps working, ...)
 
 How do we do this?
-Rules for writing good tests in order
 
 1. Expressive, Readable, Reveal intention, ...
 2. Fast
