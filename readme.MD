@@ -9,7 +9,6 @@ Rules for writing good tests in order
 
 1. Expressive, Readable, Reveal intention, ...
 2. Fast
-3. No duplication
 
 Parts:
 1. Naming Methods
