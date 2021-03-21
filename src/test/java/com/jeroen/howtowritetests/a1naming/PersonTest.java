@@ -21,6 +21,6 @@ class PersonTest {
         Person person = new Person(FIRST_NAME, null);
 
         assertThat(person.getFullName())
-                .isEqualTo("Jeroen");
+                .isEqualTo(FIRST_NAME);
     }
 }
