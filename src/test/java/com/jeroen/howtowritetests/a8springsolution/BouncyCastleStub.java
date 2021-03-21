@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a8spring;
+package com.jeroen.howtowritetests.a8springsolution;
 
 import com.jeroen.howtowritetests.a1naming.Person;
 import org.springframework.web.bind.annotation.GetMapping;

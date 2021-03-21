@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a8spring;
+package com.jeroen.howtowritetests.a8springsolution;
 
 import com.jeroen.howtowritetests.a1naming.Person;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,6 @@ public class BouncyCastleClient implements IBouncyCastleClient {
 
     @Override
     public Person getPerson() {
-
         return restTemplate.getForObject("http://localhost:8080/person?id={id}", Person.class, Map.of("id","123"));
     }
 }

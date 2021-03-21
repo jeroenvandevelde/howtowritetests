@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a8spring;
+package com.jeroen.howtowritetests.a8springsolution;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

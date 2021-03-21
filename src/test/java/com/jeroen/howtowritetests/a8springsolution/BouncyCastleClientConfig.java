@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a8spring;
+package com.jeroen.howtowritetests.a8springsolution;
 
 import org.mockito.Mockito;
 import org.springframework.context.annotation.Bean;

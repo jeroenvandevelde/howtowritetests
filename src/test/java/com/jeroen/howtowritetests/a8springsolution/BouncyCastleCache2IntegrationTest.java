@@ -1,4 +1,4 @@
-package com.jeroen.howtowritetests.a8spring;
+package com.jeroen.howtowritetests.a8springsolution;
 
 import com.jeroen.howtowritetests.a1naming.Person;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest
-public class BouncyCastleCacheIntegrationTest {
+public class BouncyCastleCache2IntegrationTest {
 
     @MockBean
     BouncyCastleClient bouncyCastleClient;
