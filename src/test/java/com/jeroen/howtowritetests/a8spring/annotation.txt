@@ -1,0 +1,3 @@
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
