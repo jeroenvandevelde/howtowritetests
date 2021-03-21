@@ -2,12 +2,11 @@ package com.jeroen.howtowritetests.a1naming;
 
 import org.junit.jupiter.api.Test;
 
+import static com.jeroen.howtowritetests.a1naming.Constants.FIRST_NAME;
+import static com.jeroen.howtowritetests.a1naming.Constants.LAST_NAME;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PersonTest {
-
-    public static final String FIRST_NAME = "Jeroen";
-    public static final String LAST_NAME = "Vandevelde";
 
     @Test
     void testGetFullName() {
