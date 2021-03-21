@@ -14,7 +14,6 @@ public class BouncyCastleClient implements IBouncyCastleClient {
         this.restTemplate = restTemplate;
     }
 
-
     @Override
     public Person getPerson() {
         return restTemplate.getForObject("http://localhost:8080/person?id={id}", Person.class, Map.of("id", "123"));
