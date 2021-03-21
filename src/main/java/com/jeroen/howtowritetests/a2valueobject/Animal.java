@@ -1,6 +1,6 @@
 package com.jeroen.howtowritetests.a2valueobject;
 
-public class Animal extends ValueObject {
+public class Animal /*extends ValueObject*/ {
     private final String name;
     private final String specie;
 
